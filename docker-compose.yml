@@ -1,0 +1,24 @@
+version: "1.1"
+
+volumes: 
+  files-datavolume:
+
+networks: 
+  gcp_network:
+    name: "ROMA_BLOG"
+    driver: bridge
+    external: false
+
+services: 
+  roma.blog:
+    labels:
+      svc: "roma.blog"
+    restart: always
+    container_name: roma.blog
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    ports:
+      - "3000"
+    networks:
+      - gcp_network
