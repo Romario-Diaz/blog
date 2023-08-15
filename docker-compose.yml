@@ -22,3 +22,13 @@ services:
       - "3000"
     networks:
       - gcp_network
+
+  nginx:
+    image: nginx:latest # Imagen de Docker para NGINX
+    container_name: nginx
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro # Montar el archivo de configuración personalizado
+    ports:
+      - "80:80" # Mapear el puerto del contenedor NGINX al puerto 80 del host
+    networks:
+      - gcp_network
