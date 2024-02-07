@@ -1,0 +1,96 @@
+.header-home {
+    display: flex;
+    width: 100%;
+}
+
+.header-home-description {
+    width: 90%;
+}
+
+.header-home-description>p {
+    margin: 20px 0px;
+    text-align: justify;
+}
+
+.header-home-description>.short-description {
+    font-weight: bold;
+}
+
+.header-home-profile {
+    width: 30%;
+}
+
+.header-home-profile-image {
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.header-home-profile-image>img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.social-media-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-bottom: 1px #fff solid;
+    margin-left: 15px;
+}
+
+.social-media-container>a {
+    padding: 10px 5px;
+    color: #fff;
+}
+
+.main-articles-container>h2 {
+    color: #FEFAB5;
+    text-decoration: underline;
+    margin: 0;
+}
+
+.card>a>h3 {
+    color: #FEFAB5;
+}
+
+.card>a {
+    text-decoration: none;
+}
+
+.card {
+    /* width: 100%; */
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #1A202C;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card>p {
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.courses {
+    margin-top: 20px;
+    color: #FEFAB5;
+    text-decoration: underline;
+
+}
+
+.courses>h2 {
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.footer {
+    margin: 50px 0px;
+}
+
+.footer>p {
+    margin: auto;
+    text-align: center;
+}

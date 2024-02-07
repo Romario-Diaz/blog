@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #1A202C;
+    color: #fff;
+    font-family: system-ui, sans-serif;
+}
+
+.blog-container {
+    width: 60%;
+    margin: auto;
+}
+
+/* NAVBAR */
+
+.navbar {
+    /* background-color: red; */
+    margin: 30px 0px;
+}
+
+.navbar>ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navbar>ul>li {
+    margin-right: 35px;
+}
+
+.navbar>ul>li>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar>ul>li>a:hover {
+    text-decoration: underline;
+    color: #FEFAB5;
+}
